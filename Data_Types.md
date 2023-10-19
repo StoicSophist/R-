@@ -37,7 +37,19 @@
           y<-cut(x,5) 
   - Creating a Vector:
       -![plot](IMG_0253.jpg)
-
+      -![plot](IMG_0255.jpg)
+      ```
+      #1 means rows
+      #2 means cols
+      apply(x,1,max)
+        26 27 28 29 30
+      apply(x,1,min)
+        1 2 3 4 5 
+      apply(x,2,max)
+        5 10 15 20 25 30 
+      apply(x,2,max)
+        1 6 11 16 21 26
+    
 ### Matrix
   - R objects in which the elements are arranged in a two-dimensional rectangular layout, and the elements are of the same atomic type.
   - How to create a matrix
