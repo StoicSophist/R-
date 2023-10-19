@@ -22,6 +22,8 @@
 ### Vector
   - A set of values with the same type (a collection of ordered elements) represented in a one-dimensional array.
   - The `c()` function is used to concatenate multiple elements together into a single vector.
+  - Creating a Vector:
+      -
 
 ### Matrix
   - R objects in which the elements are arranged in a two-dimensional rectangular layout, and the elements are of the same atomic type.
