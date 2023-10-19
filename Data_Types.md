@@ -22,12 +22,40 @@
 ### Vector
   - A set of values with the same type (a collection of ordered elements) represented in a one-dimensional array.
   - The `c()` function is used to concatenate multiple elements together into a single vector.
+  - Functions
+    ```
+    seq(from, to, by)
+      EX: generate a sequence
+          indices<-seq(1,10,2) # Numbers 1-10 step by 2
+          #indice is c(1,3,5,7,9)
+    rep(x, ntimes)
+      EX: repeat x n times
+          y<-rep(1:3, 2) #Repeats twice with the numbers 1-3
+          # y is c(1,2,3,1,2,3)
+    cut(x,n)
+      EX: Divide continuous variable in factor with n levels
+          y<-cut(x,5) 
   - Creating a Vector:
       -![plot](IMG_0253.jpg)
 
 ### Matrix
   - R objects in which the elements are arranged in a two-dimensional rectangular layout, and the elements are of the same atomic type.
   - How to create a matrix
+    ```
+    x<- matrix(c(1:30), nrow=5, ncol=6)
+    #prints 1-30 going down so vertically last row 5,10,15,20,25,30
+
+    #Naming rows and columns
+    rownames(x)<-c('Row1', 'Row2', 'Row3', 'Row4', 'Row5')
+    colnames(x)<-c('A','B','C','D','E','F')
+    # OUTPUT
+         A  B  C  D  E  F
+    Row1 
+    Row2
+    Row3
+    Row4
+    Row5 
+    ```
   - ![plot](IMG_0254.jpg)
 
 ### List
