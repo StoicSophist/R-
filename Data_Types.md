@@ -34,7 +34,8 @@
           # y is c(1,2,3,1,2,3)
     cut(x,n)
       EX: Divide continuous variable in factor with n levels
-          y<-cut(x,5) 
+          y<-cut(x,5)
+    ```
   - Creating a Vector:
       -![plot](IMG_0253.jpg)
 ### Matrix
@@ -56,19 +57,19 @@
     Row5 
     ```
   - ![plot](IMG_0254.jpg)
-  -    -![plot](IMG_0255.jpg)
-      ```
-      #1 means rows
-      #2 means cols
-      apply(x,1,max)
-        26 27 28 29 30
-      apply(x,1,min)
-        1 2 3 4 5 
-      apply(x,2,max)
-        5 10 15 20 25 30 
-      apply(x,2,max)
-        1 6 11 16 21 26
-    ```
+  -![plot](IMG_0255.jpg) 
+```
+#1 means rows
+#2 means cols
+apply(x,1,max)
+  26 27 28 29 30
+apply(x,1,min)
+  1 2 3 4 5 
+apply(x,2,max)
+  5 10 15 20 25 30 
+apply(x,2,max)
+  1 6 11 16 21 26
+```
 
 ### List
   - Flexible R objects with irregular or non-rectangular data structures.
