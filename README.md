@@ -29,3 +29,6 @@
 [Data Visualization ggplot2](https://github.com/StoicSophist/R-/blob/main/data%20visualization%20with%20ggplot2.pdf)
 
 [Data Transformation with dplyr](https://github.com/StoicSophist/R-/blob/main/data-transformation%20with%20dplyr.pdf)
+
+# Book Link
+[R for Data Science](https://r4ds.had.co.nz/index.html)
