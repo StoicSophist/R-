@@ -12,3 +12,12 @@
 [Long and Short Pipe Operator](https://github.com/StoicSophist/R-/blob/main/Lecture%209%20-%20Tagged.pdf)
 
 [Histograms, Scatterplot, Boxplot and Data Visualization](https://github.com/StoicSophist/R-/blob/main/Lecture%2010%20-%20Tagged.pdf)
+
+
+# Homework Soultions/Examples
+[Homework 1](https://github.com/StoicSophist/R-/blob/main/Solution%20to%20Homework%201%20(1).pdf)
+
+[Homework 2](https://github.com/StoicSophist/R-/blob/main/Vanegas_HW2.R)
+
+[Homework 3](https://github.com/StoicSophist/R-/blob/main/svanegas2017_Homework3.R)
+
